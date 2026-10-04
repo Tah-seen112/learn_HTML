@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+<body>
+    <header>
+        <a href ="index.html">home</a>
+    </header>
+    <main>
+       
+        <h2><p>examples of some html tables are as follows:</p></h2>
+        <table border = "5">
+            <thead>
+                <tr>
+                    <th>program</th>
+                    <th>function</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>structure</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>style</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>functionality</td>
+                <td>JavaScript</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan ="2"> Full stack web development </td>
+                </tr>
+            </tfoot>
+            <br>
+        </table>
+        <br>
+        <table border = "1" width ="700" height = "300">
+             <caption>
+                <strong>here is the data of some famous html tags used in tables.</strong>
+            </caption>
+            <colgroup>
+            <col span ="1" style = "background-color: rgb(0, 255, 149);">
+            <col span ="1" style ="background-color: rgb(216, 126, 204);">
+            </colgroup>
+            <thead>
+               <tr height = "50">
+                <th width ="200">tags</th>
+                <th width ="200">uses</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr height = "10">
+                    <td>thead</td>
+                    <td> It is used to describe the title of the table 
+                    and tells about which columns holds what type of data.</td>
+                </tr>
+                <tr height = "30">
+                    <td>colgroup</td>
+                    <td> It is used to group columns in the table.</td>
+                </tr>
+                <tr height = "30">
+                    <td>col span</td>
+                    <td> It is used to merge columns in the table.</td>
+                </tr>
+                <tr height = "30">
+                    <td>caption</td>
+                    <td> It is used to describe about the content of the table.</td>
+                </tr>
+            </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan = "2" style ="text-align:center" style = "background-color: rgb(18, 8, 155);">
+                            <i>tags help us to write differnt parts of a table</i></td>
+                    </tr>
+                </tfoot>
+        </table>
+        <h3><b>creating table usings colspan and rowspan concept</b></h3>
+        <br>
+        <table border = "1" width = "800" height = "200">
+            <caption>
+                <strong>Weekly Schedule</strong>
+            </caption>
+            <colgroup>
+                <col span 1 style = "background-color: rgb(219, 219, 139);">
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr height = "30" style = "background-color: rgb(236, 165, 165);">
+                    <th width = "100">days</th>
+                    <th>session1</th>
+                    <th>session2</th>
+                    <th>session3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr height = "50">
+                    <td >Monday</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td>JAVASCRIPT</td>
+                </tr>
+                <tr height = "50">
+                    <td >tuesday</td>
+                    <td colspan = "2"style = "text-align:center">HTML</td>
+                    <td rowspan = "2"style = "text-align:center">CSS</td>
+                </tr>
+                 <tr height = "50">
+                    <td >wednesday</td>
+                    <td rowspan = "2"style = "text-align:center">NO CLASS</td>
+                    <td>JAVASCRIPT</td>
+                </tr>
+                <tr height = "50">
+                    <td >thursday</td>
+                    <td>HTML</td>
+                    <td>JAVASCRIPT</td>
+                </tr>
+                <tr height = "50">
+                    <td >friday</td>
+                    <td>CSS</td>
+                    <td rowspan = "2" style = "text-align:center">JAVASCRIPT</td>
+                    <td>HTML</td>
+                </tr>
+                <tr height = "50">
+                    <td >saturday</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+            </tbody>    
+             <tfoot
+                </tr>
+                <tr height = "50">
+                    <td >sunday</td>
+                    <td colspan = "3" style = "text-align:center">HOLIDAY</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2><b><u>web page layout</u></b></h2>
+        <table border = "1" width = "100%" height = "400">
+            <caption>
+                <strong>web page layout</strong>
+            </caption>
+            <thead>
+                <tr height =20%>
+                    <th colspan = "2" style = "text-align:center"><code>&lt;header&gt;</code></th>
+                </tr>
+                <tr height =20%>
+                    <th colspan = "2" style = "text-align:center"><code>&lt;nav&gt;</code></th>
+                </tr>
+            </thead>
+             <tbody>
+                <tr height = 60%>
+                    <td width = "80%" valign ="top" align ="center"><code>&lt;section&gt;</code>
+                        <br>
+                        <table border = "1" width = "100%" >
+                                <tr>
+                                    <td align = "center"><code>&lt;heading&gt;</code></td>
+                                </tr>
+                                <tr>
+                                    <td align = "center"><code>&lt;article&gt;</code></td>
+                                </tr>
+                                </table>
+                    </td>
+                    <td width = "20%" valign ="top" align ="center"><code>&lt;aside&gt;</code></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr height = 20%>
+                    <td colspan = "2" style = "text-align:center"><code>&lt;footer&gt;</code></td>
+                </tr>
+        
+    </main>
+</body>
+</html>
